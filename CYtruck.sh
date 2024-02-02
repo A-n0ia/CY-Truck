@@ -10,6 +10,10 @@ s=0
 RED='\033[0;31m'
 NC='\033[0m'
 
+mkdir -p data
+mkdir -p img
+mkdir -p temp
+
 FILE=$1
 if [ "$1" = "-h" ]
 then
