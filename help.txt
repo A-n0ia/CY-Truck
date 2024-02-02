@@ -1,0 +1,25 @@
+
+Utilisation : ./CYtruck [fichier] [options]
+
+
+Afficher des graphiques sur des données spécifique d'un fichier source.
+
+Deux arguments sont obligatoires :
+ - un argument de fichier
+ - au moins un argument de type de données (-d1 -d2 -l ou -s)
+
+  -d1                        Produit en sortie un graphique sur les 10 conducteurs 				 
+  			     ayant conduit le plus de trajets.
+
+  -d2                         Produit en sortie un graphique sur les 10 conducteurs 
+  			      ayant parcourue la plus grandes distance, en km.
+  
+  -l                        Produit en sortie un graphique sur les 10 trajets les 
+  			     plus longs.
+
+  -s                        Produit en sortie un graphique sur les 10 villes les plus 
+  			    traversée, tous trajets confondues 
+  			    --- Pas encore implémenter.
+
+
+Appuyer sur Q pour quitter
